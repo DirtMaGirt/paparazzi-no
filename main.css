@@ -1,144 +1,220 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
-html {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-#wrapper {
-    border: 0px black solid;
-    display: flex;
-    flex-wrap: wrap;
-    height: 700px;
-    width: auto;
-    overflow: hidden;
-    justify-content: center;
-}
-
-.half {
-    align-content: stretch;
-    border: 0px solid black;
-    width: 400px;
-    height: 450px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 10px;
-    overflow: hidden scroll;
-    margin-top: 10px;
-    min-width: 300px;
-    background: whitesmoke;
-}
-
-.half:last-of-type {
-    width: 200px;
-    height: 450px;
-    background: white;
-    border: 2px whitesmoke solid;
-    margin: 10px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-}
-
-.head {
-    height: 150px;
-    width: 140px;
-    border: 0px black solid;
-    align-items: flex-start;
-    margin: 10px;
-    background: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.head {
-    font-family: 'Rubik Mono One', sans-serif;
-    color: grey;
-    stroke: black;
-}
-
-#resume {
-    height: auto;
-    width: 400px;
-    border: 2px black solid;
-    margin: 10px;
-    align-items: flex-start;
-    background: white;
-}
-
-.s_window {
-    height: 150px;
-    width: 148px;
-    border: 2px red solid;
-    margin: 10px;
-    align-items: center;
-}
-
-.w_window {
-    height: 150px;
-    width: 148px;
-    border: 2px whitesmoke solid;
-    margin: 10px;
-    align-items: center;
-}
-
-#projects {
-    height: 200px;
-    width: 325px;
-    border: 2px black solid;
-    margin: 10px;
-}
-
-#projects:last-of-type {
-    height: 200px;
-    width: 325px;
-    border: 2px whitesmoke solid;
-    margin: 10px;
-}
-
-.A {
-    background: grey;
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.resume_summary {
-    height: 100px;
-    width: 100%;
-    border: black 0px solid;
-    box-sizing: border-box;
-    background: grey;
-    margin-bottom: 10px;
-}
-
-.space {
-    border: 2px solid black;
-    height: auto;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-}
-
-.box_1 {
-    height: 100px;
-    width: 100px;
-    border: 2px solid black;
-    box-sizing: border-box;
-}
-
-.summ {
-    height: 100px;
-    width: 272px;
-    border: 2px solid black;
-    box-sizing: border-box;
-}
-
-.highlights {
-    height: 160px;
-    width: 100%;
-    border: 2px solid black;
-    box-sizing: border-box;
-}
+                                                        @import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+                                                        @import url('https://fonts.googleapis.com/css?family=Rubik|Rubik+Mono+One');
+                                                        html {
+                                                            -webkit-box-sizing: border-box;
+                                                            -moz-box-sizing: border-box;
+                                                            box-sizing: border-box;
+                                                            font-family: 'Rubik Mono One', sans-serif;
+                                                        }
+                                                        
+                                                        #wrapper {
+                                                            border: 0px black solid;
+                                                            display: flex;
+                                                            flex-wrap: wrap;
+                                                            height: 700px;
+                                                            width: auto;
+                                                            overflow: hidden;
+                                                            justify-content: center;
+                                                        }
+                                                        
+                                                        .half {
+                                                            align-content: stretch;
+                                                            border: 0px solid black;
+                                                            width: 400px;
+                                                            height: 570px;
+                                                            display: flex;
+                                                            flex-wrap: wrap;
+                                                            margin-left: 10px;
+                                                            overflow: hidden;
+                                                            margin-top: 10px;
+                                                            min-width: 300px;
+                                                            /* background: ; */
+                                                        }
+                                                        
+                                                        .half:last-of-type {
+                                                            width: 400px;
+                                                            height: 450px;
+                                                            background: white;
+                                                            border: 2px whitesmoke solid;
+                                                            margin: 10px;
+                                                            box-sizing: border-box;
+                                                            margin-bottom: 10px;
+                                                        }
+                                                        
+                                                        .header_main {
+                                                            display: flex;
+                                                            justify-content: ;
+                                                            height: 110px;
+                                                            width: 100%;
+                                                            /* background: black; */
+                                                            flex-wrap: wrap;
+                                                            border: 0px solid black;
+                                                            font-family: 'Rubik Mono One', sans-serif;
+                                                            color: grey;
+                                                            stroke: black;
+                                                            line-height: 29px;
+                                                        }
+                                                        
+                                                        .head {
+                                                            height: 100px;
+                                                            width: 100px;
+                                                            border: 2px lightgrey solid;
+                                                            align-items: flex-start;
+                                                            background: white;
+                                                            display: flex;
+                                                            align-items: center;
+                                                            justify-content: center;
+                                                            text-align: left;
+                                                        }
+                                                        
+                                                        .head {
+                                                            font-family: 'Rubik Mono One', sans-serif;
+                                                            color: lightgrey;
+                                                            stroke: black;
+                                                        }
+                                                        
+                                                        .res_space {
+                                                            height: 500px;
+                                                            width: 100%;
+                                                            overflow: hidden scroll;
+                                                        }
+                                                        
+                                                        #resume {
+                                                            height: auto;
+                                                            width: 400px;
+                                                            border: 0px black solid;
+                                                            margin: 10px;
+                                                            align-items: flex-start;
+                                                            background: whitesmoke;
+                                                        }
+                                                        
+                                                        .s_window {
+                                                            height: 150px;
+                                                            width: 148px;
+                                                            border: 2px red solid;
+                                                            margin: 10px;
+                                                            align-items: center;
+                                                        }
+                                                        
+                                                        .w_window {
+                                                            height: 150px;
+                                                            width: 148px;
+                                                            border: 2px whitesmoke solid;
+                                                            margin: 10px;
+                                                            align-items: center;
+                                                        }
+                                                        
+                                                        #projects {
+                                                            height: 200px;
+                                                            width: 325px;
+                                                            border: 2px black solid;
+                                                            margin: 10px;
+                                                        }
+                                                        
+                                                        #projects:last-of-type {
+                                                            height: 200px;
+                                                            width: 325px;
+                                                            border: 2px whitesmoke solid;
+                                                            margin: 10px;
+                                                        }
+                                                        
+                                                        .A {
+                                                            background: lightgrey;
+                                                            color: white;
+                                                            display: flex;
+                                                            justify-content: flex-end;
+                                                            align-items: center;
+                                                            order: -1;
+                                                            text-align: right;
+                                                            width: 140px;
+                                                        }
+                                                        
+                                                        .resume_summary {
+                                                            height: 100px;
+                                                            width: 100%;
+                                                            border: black 0px solid;
+                                                            box-sizing: border-box;
+                                                            background: lightgrey;
+                                                            margin-bottom: 10px;
+                                                        }
+                                                        
+                                                        .space {
+                                                            border: 0px solid black;
+                                                            height: auto;
+                                                            width: 100%;
+                                                            display: flex;
+                                                            flex-wrap: wrap;
+                                                            box-sizing: border-box;
+                                                            background: grey;
+                                                        }
+                                                        
+                                                        .box_1 {
+                                                            height: 80px;
+                                                            width: 190px;
+                                                            border: 2px solid whitesmoke;
+                                                            box-sizing: border-box;
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            background: white;
+                                                        }
+                                                        
+                                                        .Job_title {
+                                                            height: 30%;
+                                                            width: 100%;
+                                                            border: 0px solid black;
+                                                            box-sizing: border-box;
+                                                            border-bottom: 2px solid black;
+                                                        }
+                                                        
+                                                        .Job_title>p {
+                                                            font-size: 11pt;
+                                                            margin-top: 5px;
+                                                            margin-left: 5px;
+                                                        }
+                                                        
+                                                        .company {
+                                                            height: 30%;
+                                                            width: 100%;
+                                                            border: 0px solid black;
+                                                            box-sizing: border-box;
+                                                        }
+                                                        
+                                                        .company>p {
+                                                            font-size: 11pt;
+                                                            margin-top: 5px;
+                                                            margin-left: 5px;
+                                                            font-family: 'Rubik', sans-serif;
+                                                        }
+                                                        
+                                                        .tenure {
+                                                            height: 30%;
+                                                            width: 100%;
+                                                            border: 0px solid black;
+                                                            box-sizing: border-box;
+                                                            font-family: 'Rubik', sans-serif;
+                                                        }
+                                                        
+                                                        .tenure>p {
+                                                            font-size: 11pt;
+                                                            margin-top: 5px;
+                                                            margin-left: 5px;
+                                                        }
+                                                        
+                                                        .summ {
+                                                            margin-left: 10px;
+                                                            height: 100px;
+                                                            width: 180px;
+                                                            border: 2px solid whitesmoke;
+                                                            box-sizing: border-box;
+                                                            background: lightgrey;
+                                                        }
+                                                        
+                                                        .highlights {
+                                                            height: 160px;
+                                                            width: 100%;
+                                                            border: 2px solid whitesmoke;
+                                                            box-sizing: border-box;
+                                                            margin-bottom: 10px;
+                                                            margin-top: 10px;
+                                                            background: white;
+                                                        }
